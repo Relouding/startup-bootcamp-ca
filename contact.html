@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact page">
+      <title>GET IN TOUCH</title>
+    <link
+      href="css/contact.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation + hero banner -->
+    <div class="--navigation-container">
+      <a class="" href="home.html">Home</a>
+      <a class="" href="work.html">My work</a>
+        <h1>Andreas Frøitland</h1>
+      <a class="" href="about.html">About me</a>
+      <a class="--active" href="contact.html">Get in touch</a>
+    </div>
+    <div class="--hero_banner-container">
+      <img src="images/_hero-banner.jpg" alt="image of a blue sky with clouds">
+    </div>
+    <!-- Main content -->
+    <!-- Form -->
+      <div class="--form-container">
+        <form id="contactForm">
+          <div class="form-okay" id="formOkay">Form submitted successfully</div>
+          <div>
+            <label>
+              First name:
+              <input name="firstName" id="firstName" />
+            </label>
+            <div class="form-error" id="firstNameError">Please enter your first name</div>
+          </div>
+          <div>
+            <label>
+              Last name:
+              <input name="lastName" id="lastName" />
+            </label>
+            <div class="form-error" id="lastNameError">Your last name must be at least 5 characters</div>
+          </div>
+          <div>
+            <label>
+              Email:
+              <input name="email" id="email" />
+            </label>
+            <div class="form-error" id="emailError">Please enter a valid email address</div>
+          </div>
+          <button>Submit</button>
+      </form>
+    </div>
+    <!-- Footer -->
+    <div class="--footer-container">
+      <div class="--footer-content">
+        <p>©2022, Andreas Frøitland.</p>
+        <img src="images/_hero-banner.jpg" alt="image of a blue sky with clouds">
+      </div>
+    </div>
+    <!-- Script(s) -->
+    <script
+      src="js/formValidation.js">
+    </script>
+  </body>
+</html>

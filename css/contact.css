@@ -1,0 +1,63 @@
+/* imports */
+@import "navigation.css";
+@import "hero_banner.css";
+@import "footer.css";
+
+/* body */
+body {
+           margin: 0;
+}
+
+/* form */
+.--form-container {
+        max-width: 800px;
+           margin: 0 auto;
+}
+
+form {
+            color: black;
+      font-family: arial;
+        font-size: 1rem;
+          padding: 2rem;
+}
+
+input {
+            color: black;
+      font-family: arial;
+        font-size: 1rem;
+            width: 100%;
+       margin-top: 0.5rem;
+          padding: 0.5rem;
+}
+
+button {
+            color: white;
+      font-family: arial;
+        font-size: 1rem;
+       background: rgb(11, 91, 133);
+           border: none;
+    border-radius: 0.25rem;
+           cursor: pointer;
+            width: 150px;
+       margin-top: 1rem;
+          padding: 1rem;
+}
+
+label {
+          display: block;
+       margin-top: 1rem;
+}
+
+.form-error {
+          display: none;
+            color: red;
+        font-size: 1rem;
+       margin-top: 0.5rem;
+}
+
+.form-okay {
+          display: none;
+            color: green;
+        font-size: 1rem;
+       margin-top: 0.5rem;
+}

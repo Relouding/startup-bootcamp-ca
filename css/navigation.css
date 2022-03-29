@@ -1,0 +1,48 @@
+/* navigation */
+.--navigation-container {
+          max-width: 1500px;
+            display: flex;
+             margin: 0 auto;
+
+}
+
+.--navigation-container h1 {
+        font-family: arial black;
+          font-size: 1rem;
+     text-transform: uppercase;
+             margin: auto;
+            padding: 0;
+}
+
+.--navigation-container a {
+              color: black;
+        font-family: arial;
+          font-size: 0.9rem;
+     text-transform: uppercase;
+    text-decoration: none;
+             margin: 1rem;
+            padding: 0.45rem;
+}
+
+.--navigation-container .--active {
+        font-weight: bold;
+             border: solid 0.1rem black;
+      border-radius: 0.25rem;
+}
+
+/* navigation media rules */
+@media only screen and (max-width: 700px) {
+  .--navigation-container  {
+            display: block;
+         text-align: center;
+  }
+  .--navigation-container h1 {
+          font-size: 1.5rem;
+             margin: 1rem auto;
+  }
+  .--navigation-container a {
+          font-size: 1rem;
+            display: block;
+             margin: 0 auto;
+  }
+}

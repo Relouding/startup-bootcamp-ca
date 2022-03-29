@@ -1,0 +1,15 @@
+/* preview image */
+#--fullpage {
+    display: none;
+    position: fixed;
+    z-index: 25;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    cursor: zoom-out;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: black;
+  }

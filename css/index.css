@@ -1,0 +1,57 @@
+/* imports */
+
+/* body */
+body {
+               margin: 0;
+     background-image: url("../images/_hero-banner.jpg");
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.--landing_page-container {
+           margin-top: 20%;
+              display: flex;
+          align-items: center;
+      justify-content: center;
+}
+
+.--landing_page-content {
+           text-align: center;
+}
+
+.--landing_page-content h1 {
+                color: black;
+          font-family: arial black;
+            font-size: 1.5rem;
+       text-transform: uppercase;
+              padding: 0;
+               margin: 0.5rem;
+}
+
+.--landing_page-content h2 {
+                color: black;
+          font-family: helvetica;
+            font-size: 0.95rem;
+         word-spacing: 2rem;
+       text-transform: uppercase;
+              padding: 0;
+               margin: 0.5rem;
+}
+
+.--landing_page-content a {
+    text-decoration: none;
+}
+
+.--landing_page-content p {
+                color: white;
+          font-family: arial black;
+          font-weight: bold;
+            font-size: 0.95rem;
+       text-transform: uppercase;
+           background: rgb(70,70,70);
+           background: linear-gradient(90deg, rgba(70,70,70,1) 0%, rgba(62,88,122,0.5046393557422969) 100%);
+               border: solid 0.15rem black;
+        border-radius: 0.25rem;
+              padding: 1rem 0 1rem 0;
+               margin: 0;
+}
